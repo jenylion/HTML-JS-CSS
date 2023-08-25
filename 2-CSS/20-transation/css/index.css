@@ -1,0 +1,26 @@
+.somediv{
+    height: 200px;
+    width: 50vw;
+    background-color: aqua;
+    
+    transition-property: width, height, background-color;
+    transition-duration: 2s;
+}
+.somediv:hover{
+    /* width:100vw;
+    height: 400px; */
+    background-color: red;
+
+}
+
+.card{
+width: 200px;
+height: 400px;
+background-color: red;
+transition-property:transform ;
+transition-duration: 2s;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
